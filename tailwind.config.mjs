@@ -32,19 +32,35 @@ export default {
     extend: {
       colors: {
         transparent: "transparent",
+        // Primary Blue - Modern SaaS color for trust & technology
         primary: {
-          50: "#fdf2f8",
-          100: "#fce7f3",
-          200: "#fbcfe8",
-          300: "#f9a8d4",
-          400: "#f472b6",
-          500: "#E2187D",
-          600: "#db2777",
-          700: "#be185d",
-          800: "#9d174d",
-          900: "#831843",
-          950: "#500724",
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#0077FF", // Main primary color
+          600: "#005FCC",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
+          950: "#172554",
         },
+        // Secondary Accent - Fresh Teal for innovation
+        secondary: {
+          50: "#f0fdfa",
+          100: "#ccfbf1",
+          200: "#99f6e4",
+          300: "#5eead4",
+          400: "#2dd4bf",
+          500: "#00B8A9", // Main secondary/accent color
+          600: "#0d9488",
+          700: "#0f766e",
+          800: "#115e59",
+          900: "#134e4a",
+          950: "#042f2e",
+        },
+        // Neutral/Slate - Professional gray scale
         neutral: {
           50: "#f8fafc",
           100: "#f1f5f9",
@@ -58,13 +74,32 @@ export default {
           900: "#0f172a",
           950: "#020617",
         },
+        // Supporting colors for UI states
+        success: {
+          500: "#10B981",
+        },
+        warning: {
+          500: "#F59E0B",
+        },
+        error: {
+          500: "#EF4444",
+        },
+        info: {
+          500: "#3B82F6",
+        },
+        // Background colors
+        background: {
+          main: "#F9FAFB",
+          card: "#FFFFFF",
+          accent: "#F1F5F9",
+        },
       },
       cursor: {
         fancy: "url(https://www.svgrepo.com/show/269/color-picker.svg)",
       },
       fontFamily: {
-        sans: ["Inter Variable", ...defaultTheme.fontFamily.sans],
-        headings: ["Outfit Variable", ...defaultTheme.fontFamily.sans],
+        sans: ["Roboto", ...defaultTheme.fontFamily.sans],
+        headings: ["Montserrat Variable", ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         dropdown: {

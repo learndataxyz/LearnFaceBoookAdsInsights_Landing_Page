@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'LearnFacebookAds Insights - AI-Powered Facebook Ads Analytics',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'Connect your Facebook Ads data to Google Sheets. Get AI-powered insights and automation for Shopify stores, digital agencies, and freelancers.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		alt: 'LearnFacebookAds Insights logo'
 	},
 	canonical: true,
 	noindex: false,

@@ -2,76 +2,50 @@
 	{
 		"header": {
 			"title": "Basic",
-			"subtitle": "Ideal for individual developers.",
+			"subtitle": "Pull reports with automated scheduling",
 			"currency": "$",
-			"price": "19",
+			"price": "9.99",
 			"priceLabel": "month, billed anually",
-			"priceMontly": "25",
+			"priceMontly": "14.99",
 			"priceLabelMontly": "month",
 			"buttonName": "Try for free",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." }
+				{ "listItem": "Pull your facebook ads data." },
+				{ "listItem": "Set automated schedules." },
+				{ "listItem": "Use with unlimited ads accounts." }
 			]
 		},
 		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
+			"buttonName": "",
+			"buttonLink": ""
 		},
 		"type": "basic"
 	},
 	{
 		"header": {
-			"title": "Team",
-			"subtitle": "Ideal for small teams",
+			"title": "Pro",
+			"subtitle": "Analyze your Facebook Ads with AI",
 			"currency": "$",
-			"price": "29",
+			"price": "29.99",
 			"priceLabel": "month, billed anually",
-			"priceMontly": "35",
+			"priceMontly": "34.99",
 			"priceLabelMontly": "month",
 			"buttonName": "Try for free",
 			"buttonLink": "/"
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." },
-				{ "listItem": "Unlock endless inspiration" }
+				{ "listItem": "All featues in Basic" },
+				{ "listItem": "AI data and statistical analysis with your Facebook Ads data." },
+				{ "listItem": "Generate graphical plots and table summaries with AI." }
 			]
 		},
 		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
-		},
-		"type": "featured"
-	},
-	{
-		"header": {
-			"title": "Enterprise",
-			"subtitle": "Ideal for companies",
-			"currency": "$",
-			"price": "49",
-			"priceLabel": "month, billed anually",
-			"priceMontly": "65",
-			"priceLabelMontly": "month",
-			"buttonName": "Try for free",
-			"buttonLink": "/"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." }
-			]
-		},
-		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
+			"buttonName": "",
+			"buttonLink": ""
 		},
 		"type": "basic"
 	}
