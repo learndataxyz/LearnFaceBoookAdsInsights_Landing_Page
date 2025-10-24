@@ -1,104 +1,74 @@
 [
-	{
-		"question": "What is the cost of the basic plan?",
-		"reply": "The basic plan is $9.99 per month, which includes access to core features and limited integrations. This plan is perfect for individuals or small teams looking to improve their productivity without a large investment.",
-		"category": "pricing",
-		"open": true
-	},
-	{
-		"question": "Are there any discounts for annual subscriptions?",
-		"reply": "Yes, we offer a 20% discount on annual subscriptions for all our plans. By choosing an annual subscription, you can save money and ensure uninterrupted access to all LearnFacebookAdsInsights features for the entire year.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Can I change my subscription plan at any time?",
-		"reply": "Yes, you can upgrade or downgrade your subscription plan at any time from your account settings. This flexibility allows you to adjust your plan based on your changing needs and usage.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Is there a free trial available?",
-		"reply": "Yes, we offer a 14-day free trial for all new users. During the trial, you can explore all the features of LearnFacebookAdsInsights without any commitment, allowing you to see how it fits into your workflow.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Do you offer refunds?",
-		"reply": "We offer a 30-day money-back guarantee if you are not satisfied with our service. Simply contact our support team within 30 days of your purchase, and we'll process your refund.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "How do I cancel my subscription?",
-		"reply": "You can cancel your subscription from your account settings at any time. After cancellation, you will still have access to your account until the end of the billing cycle.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Can I use LearnFacebookAdsInsights with Google Calendar?",
-		"reply": "Yes, LearnFacebookAdsInsights integrates seamlessly with Google Calendar for easy scheduling and task management. This integration helps you keep track of your events and tasks in one place.",
-		"category": "integrations",
-		"open": true
-	},
-	{
-		"question": "Does LearnFacebookAdsInsights work with Slack?",
-		"reply": "Yes, you can integrate LearnFacebookAdsInsights with Slack to receive notifications and updates directly in your channels. This allows you to stay informed about your projects without leaving Slack.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "How do I connect LearnFacebookAdsInsights with Trello?",
-		"reply": "To connect LearnFacebookAdsInsights with Trello, go to the integrations page in your settings and follow the instructions to link your accounts. This integration helps you manage your Trello boards and LearnFacebookAdsInsights projects together.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Is there an API for custom integrations?",
-		"reply": "Yes, we provide an API that allows you to create custom integrations with LearnFacebookAdsInsights. Our API documentation provides detailed instructions and examples to help you get started.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Can I sync LearnFacebookAdsInsights with my email?",
-		"reply": "Currently, we do not support email integration, but this feature is on our roadmap for future releases. Stay tuned for updates as we continue to enhance LearnFacebookAdsInsights's capabilities.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Does LearnFacebookAdsInsights support Zapier?",
-		"reply": "Yes, LearnFacebookAdsInsights integrates with Zapier, allowing you to connect with over 2,000 apps and automate your workflows. This integration helps you streamline your processes and improve efficiency.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "What are the main features of LearnFacebookAdsInsights?",
-		"reply": "LearnFacebookAdsInsights includes in-app messaging, project management, time tracking, customizable dashboards, and more. These features are designed to help you stay organized, communicate effectively, and manage your time efficiently.",
-		"category": "features",
-		"open": true
-	},
-	{
-		"question": "How do I use the in-app messaging feature?",
-		"reply": "In-app messaging allows you to communicate with your team directly within LearnFacebookAdsInsights. Simply navigate to the messaging tab to start a conversation. You can send messages, share files, and create group chats.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "Can I customize my dashboard?",
-		"reply": "Yes, you can customize your dashboard by adding, removing, and rearranging widgets to fit your workflow. This customization helps you keep important information at your fingertips.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "How does the time tracking feature work?",
-		"reply": "Time tracking allows you to log the time spent on tasks and projects. Start the timer when you begin a task and stop it when you're done. You can also manually log time if needed.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "Is there a mobile app for LearnFacebookAdsInsights?",
-		"reply": "Yes, LearnFacebookAdsInsights is available on both iOS and Android, allowing you to manage your tasks and projects on the go. Download the app from the App Store or Google Play to stay productive anywhere.",
-		"category": "features",
-		"open": false
-	}
+    {
+        "question": "How do I subscribe?",
+        "reply": "Subscription is made through Gumroad. The links on the subscriptions will take you to their respective Gumroad pages.",
+        "category": "pricing",
+        "open": true
+    },
+    {
+        "question": "How long is the free trial?",
+        "reply": "When you subscribe for a membership on Gumroad, you have 7 days to access our product before your card gets charged. You can also cancel before the end of the trial, to avoid getting charged.",
+        "category": "pricing",
+        "open": false
+    },
+    {
+        "question": "Can I upgrade my plan later?",
+        "reply": "Yes, you can upgrade or downgrade your plan at any time from the 'Manage membership' area on Gumroad. The changes will take effect immediately, and any cost adjustments will be prorated.",
+        "category": "pricing",
+        "open": false
+    },
+    {
+        "question": "Are there any hidden fees?",
+        "reply": "No, there are no hidden fees. The price you see is the price you pay. We believe in transparent pricing with no surprises.",
+        "category": "pricing",
+        "open": false
+    },
+    {
+        "question": "Do you offer discounts for annual subscriptions?",
+        "reply": "Yes, we offer a discount for annual subscriptions. By choosing an annual plan, you can save up to 33% compared to the monthly plan.",
+        "category": "pricing",
+        "open": false
+    },
+    {
+        "question": "Do you offer refunds?",
+        "reply": "Yes, we offer refunds but on certain conditions only. Please go through our refund policy for more information.",
+        "category": "pricing",
+        "open": false
+    },
+    {
+        "question": "Can I use LearnFacebookAdsInsights with other BI tools?",
+        "reply": "Yes, with LearnFacebookAdsInsights, you can pull your Facebook Ads data into Google Sheets and use the Google Sheets integration to connect with various BI tools like Looker Studio and Power BI. This allows you to create custom reports and visualizations based on your Facebook Ads data.",
+        "category": "integrations",
+        "open": true
+    },
+    {
+        "question": "How do I connect LearnFacebookAdsInsights to Google Sheets?",
+        "reply": "You can easily connect LearnFacebookAdsInsights to Google Sheets through our integration settings. Once connected, your Facebook Ads data will automatically sync to your specified Google Sheet, allowing you to analyze and visualize your ad performance data.",
+        "category": "integrations",
+        "open": false
+    },
+    {
+        "question": "Does LearnFacebookAdsInsights work with Looker Studio (formerly Data Studio)?",
+        "reply": "Yes, LearnFacebookAdsInsights integrates seamlessly with Looker Studio. By pulling your Facebook Ads data into Google Sheets first, you can then connect those sheets to Looker Studio to create interactive dashboards and custom reports for your ad campaigns.",
+        "category": "integrations",
+        "open": false
+    },
+    {
+        "question": "Can I export data to Excel or CSV format?",
+        "reply": "Yes, you can export your Facebook Ads data to both Excel and CSV formats. This makes it easy to share reports with stakeholders or perform additional analysis using your preferred tools.",
+        "category": "integrations",
+        "open": false
+    },
+    {
+        "question": "Does LearnFacebookAdsInsights support Power BI integration?",
+        "reply": "Yes, you can connect LearnFacebookAdsInsights with Power BI through our Google Sheets integration or by using our API. This allows you to incorporate your Facebook Ads metrics into your Power BI dashboards and reports.",
+        "category": "integrations",
+        "open": false
+    },
+    {
+        "question": "Can I integrate with multiple Facebook Ad accounts?",
+        "reply": "Yes, LearnFacebookAdsInsights supports integration with multiple Facebook Ad accounts. You can easily switch between accounts and pull into multiple sheets for comprehensive reporting.",
+        "category": "integrations",
+        "open": false
+    }
 ]

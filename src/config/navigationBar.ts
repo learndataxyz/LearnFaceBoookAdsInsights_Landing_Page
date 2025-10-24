@@ -35,7 +35,7 @@ export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
 		alt: 'The tailwind astro theme',
-		text: 'LearnFacebookAdsInsights.'
+		text: 'LearnFacebookAdsInsights'
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },
