@@ -35,7 +35,7 @@ export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
 		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		text: 'LearnFacebookAdsInsights.'
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },
@@ -46,9 +46,9 @@ export const navigationBarData: NavData = {
 			link: '#',
 			submenu: [
 				{ name: 'Blog', link: '/blog' },
-				{ name: 'Changelog', link: '/changelog' },
-				{ name: 'FAQ', link: '/faq' },
-				{ name: 'Terms', link: '/terms' }
+				{ name: 'Terms and Conditions', link: '/terms' },
+				{ name: 'Privacy Policy', link: '/privacy' },
+				{ name: 'Refund Policy', link: '/refund_policy' }
 			]
 		},
 		{ name: 'Contact', link: '/contact' }

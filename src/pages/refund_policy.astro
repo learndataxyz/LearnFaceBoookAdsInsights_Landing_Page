@@ -1,0 +1,145 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// Content
+// - SEO
+const SEO = {
+    title: 'LearnFacebookAdsInsights | Refunds and Returns Policy',
+    description:
+        "LearnFacebookAdsInsights refunds and returns policy outlines the conditions under which refunds may be granted and the process for requesting them."
+}
+// - Page Header
+const header = {
+    title: 'Refunds and Returns Policy',
+    text: 'We strive to ensure customer satisfaction. Learn about our refund eligibility, process, and policies for digital services.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+    <Hero title={header.title} text={header.text} />
+    <SidebarContent>
+        <div slot="sidebar">
+            <h3>Quick Info</h3>
+            <p><strong>Effective Date:</strong> 23 October 2025</p>
+            <p><strong>Website:</strong> <a href="https://lfbai.learndata.xyz">lfbai.learndata.xyz</a></p>
+            <p><strong>Business Name:</strong> LearnFacebookAdsInsights</p>
+            <p><strong>Email:</strong> <a href="mailto:admin@learndata.xyz">admin@learndata.xyz</a></p>
+            <p><strong>Address:</strong> Nigeria</p>
+        </div>
+        <div class="basic-text">
+            <h4>1. Overview</h4>
+            <p>
+                At LearnFacebookAdsInsights, we strive to ensure our customers are completely satisfied with their purchase of the <em>LearnFacebookAds Insights</em> Google Sheets extension. This policy outlines the conditions under which refunds or returns may be granted, the process for requesting them, and our general principles for fairness and transparency.
+            </p>
+            <p>
+                Because our product is a <strong>digital software service</strong>, returns differ from those involving physical goods. However, we aim to maintain a customer-first approach while protecting against unauthorized use or abuse of our digital tools.
+            </p>
+
+            <h4>2. Eligibility for Refunds</h4>
+            <p>Refunds are considered under the following conditions:</p>
+            <ul>
+                <li><strong>Technical Issues:</strong> If you experience a persistent technical issue that prevents normal use of the product and our support team cannot resolve it within <strong>7 business days</strong> of notification.</li>
+                <li><strong>Accidental Purchase:</strong> If you purchased the wrong plan or product by mistake and have <strong>not yet activated or used</strong> the extension.</li>
+                <li><strong>Non-Delivery:</strong> If, for any reason, you did not receive access to the product within <strong>48 hours</strong> of purchase, and our team fails to provide it upon notification.</li>
+            </ul>
+            
+            <p>Refunds <strong>will not</strong> be issued in the following cases:</p>
+            <ul>
+                <li>You changed your mind after purchasing.</li>
+                <li>You no longer need the product or your business circumstances have changed.</li>
+                <li>You used the product extensively before requesting a refund.</li>
+                <li>The issue is due to third-party account limitations (e.g., Facebook Ads API restrictions or Google Sheets access issues beyond our control).</li>
+            </ul>
+
+            <h4>3. Timeframe for Refund Requests</h4>
+            <p>
+                Refund requests must be made within <strong>14 days</strong> of the original purchase date. After this period, we cannot guarantee a refund.
+            </p>
+        </div>
+    </SidebarContent>
+    <SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+        <div slot="sidebar">
+            <h3>Request Process</h3>
+            <p>
+                Follow our simple process to request a refund. We're committed to responding promptly and fairly to all requests.
+            </p>
+        </div>
+        <div class="basic-text">
+            <h4>4. How to Request a Refund</h4>
+            <p>To initiate a refund request:</p>
+            <ol>
+                <li>Email us at <strong><a href="mailto:admin@learndata.xyz">admin@learndata.xyz</a></strong> with the subject line: <strong>"Refund Request – [Your Order ID or Email Address]"</strong>.</li>
+                <li>Include the following details:
+                    <ul>
+                        <li>Your full name</li>
+                        <li>Order date and payment reference</li>
+                        <li>Reason for requesting the refund</li>
+                        <li>Description or screenshots of any technical issue (if applicable)</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <p>Once received, our support team will:</p>
+            <ul>
+                <li>Acknowledge your request within <strong>2 business days</strong></li>
+                <li>Investigate and, if applicable, request additional details</li>
+                <li>Provide a resolution (approval or denial) within <strong>7 business days</strong> of acknowledgment</li>
+            </ul>
+            
+            <p>
+                Approved refunds will be processed to the <strong>original payment method</strong> within <strong>5–10 business days</strong>, depending on your financial institution.
+            </p>
+
+            <h4>5. Subscription and Renewal Policy</h4>
+            <p>If you have subscribed to a recurring plan:</p>
+            <ul>
+                <li>You may <strong>cancel anytime</strong> before your next billing date to avoid renewal charges.</li>
+                <li>Refunds for renewed subscriptions will only be granted if you <strong>did not access or use</strong> the product after renewal and notify us within <strong>7 days</strong> of the charge.</li>
+            </ul>
+        </div>
+    </SidebarContent>
+    <SidebarContent>
+        <div slot="sidebar">
+            <h3>Additional Terms</h3>
+            <p>
+                Important details about fees, product access after refunds, and how to reach our support team.
+            </p>
+        </div>
+        <div class="basic-text">
+            <h4>6. Fees and Deductions</h4>
+            <p>
+                In some cases, a small <strong>processing fee (up to 5%)</strong> may be deducted from your refund to cover payment gateway or administrative costs. This will be communicated transparently during the refund process.
+            </p>
+
+            <h4>7. Product Access After Refund</h4>
+            <p>
+                Once a refund is issued, your license or access to the <em>LearnFacebookAds Insights</em> extension will be immediately revoked, and continued use will be unauthorized under our Terms of Service.
+            </p>
+
+            <h4>8. Contact Us</h4>
+            <p>
+                If you have any questions, feedback, or wish to request support before pursuing a refund, please reach out to us at:
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:admin@learndata.xyz">admin@learndata.xyz</a><br>
+                <strong>Website:</strong> <a href="https://lfbai.learndata.xyz">lfbai.learndata.xyz</a><br>
+                <strong>Address:</strong> Nigeria
+            </p>
+            <p>
+                We're committed to resolving issues quickly and ensuring you get maximum value from LearnFacebookAds Insights.
+            </p>
+            <p style="margin-top: 2rem;">
+                <strong>LearnFacebookAdsInsights</strong><br>
+                <em>Helping eCommerce SMBs and digital marketers make smarter ad decisions with AI-powered insights.</em>
+            </p>
+            <p style="margin-top: 1rem;">
+                <strong>© 2025 LearnFacebookAdsInsights. All rights reserved.</strong>
+            </p>
+        </div>
+    </SidebarContent>
+</Layout>

@@ -19,14 +19,14 @@ const featuresSupport = featuresData.filter((feature) => feature.category === 'S
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Features to Boost Productivity & Security',
+	title: 'LearnFacebookAdsInsights | Features to Boost Productivity & Security',
 	description:
-		"Explore Foxi's powerful features designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with Foxi today!"
+		"Explore LearnFacebookAdsInsights's powerful features designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with LearnFacebookAdsInsights today!"
 }
 // - Page Header
 const header = {
-	title: 'Why you and your team will <strong>love</strong> foxi.',
-	text: 'Streamline your tasks, protect your data, and enjoy working with our tools!'
+	title: 'Why you and your team will <strong>love</strong> LearnFacebookAdsInsights',
+	text: 'The easiest way to pull, analyze, and understand Facebook Ads performance.'
 }
 ---
 
@@ -34,14 +34,8 @@ const header = {
 	<Hero title={header.title} text={header.text} />
 	<Feature
 		title="Insightful Analytics"
-		text="Delve into your data with precision and uncover actionable insights."
+		text="Dive into your data with precision and uncover actionable insights."
 		data={featuresAnalytics}
-	/>
-	<Feature
-		title="Efficiency Unleashed"
-		text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
-		data={featuresSecurity}
-		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
 		title="Ultimate Data Protection"
@@ -59,5 +53,5 @@ const header = {
 		text="Our friendly support team is always here to assist you with any questions or issues."
 		data={featuresSupport}
 	/>
-	<CTA />
+	{/*<CTA />*/}
 </Layout>

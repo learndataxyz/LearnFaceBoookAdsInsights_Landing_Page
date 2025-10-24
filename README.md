@@ -1,19 +1,19 @@
-# Foxi - Astro Theme
+# LearnFacebookAdsInsights - Astro Theme
 
 Open-source Astro website template with fully responsive, customizable TailwindCSS components.
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/foxi.png)
+![just-the-basics](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/LearnFacebookAdsInsights.png)
 
-[![View live Demo](https://oxygenna-themes.b-cdn.net/foxi-astro/button-demo.svg)](https://foxi.netlify.app)
-[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/foxi-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-foxi-netlify-app/c9ig3t85mu?form_factor=desktop)
+[![View live Demo](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/button-demo.svg)](https://LearnFacebookAdsInsights.netlify.app)
+[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-LearnFacebookAdsInsights-netlify-app/c9ig3t85mu?form_factor=desktop)
 
 ## Introduction
 
 ### About
 
-Foxi is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, Foxi offers a solid foundation for building modern, high-performance websites quickly and efficiently.
+LearnFacebookAdsInsights is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, LearnFacebookAdsInsights offers a solid foundation for building modern, high-performance websites quickly and efficiently.
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/pagespeedscore.svg)
+![just-the-basics](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/pagespeedscore.svg)
 
 ### Features
 
@@ -68,10 +68,10 @@ Foxi is a free, highly customizable, and production-ready template for Astro, ut
 | License                   | MIT                        | Commercial                                                       |
 |                           |                            |                                                                  |
 | Pricing                   | Free                       | $79.99                                                           |
-|                           | Continue with Free version | [View Pro Version](https://astro.build/themes/details/foxi-pro/) |
+|                           | Continue with Free version | [View Pro Version](https://astro.build/themes/details/LearnFacebookAdsInsights-pro/) |
 
-[![Get Pro Version](https://oxygenna-themes.b-cdn.net/foxi-pro-astro/primary-button-get-foxi-pro.svg)](https://oxygenna.lemonsqueezy.com/buy/2e32ec07-aa31-45a4-835d-8ebb7f6048cc)
-[![View Foxi Pro live Demo](https://oxygenna-themes.b-cdn.net/foxi-pro-astro/secondary-button-foxi-pro-demo.svg)](https://foxi-pro.netlify.app/)
+[![Get Pro Version](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-pro-astro/primary-button-get-LearnFacebookAdsInsights-pro.svg)](https://oxygenna.lemonsqueezy.com/buy/2e32ec07-aa31-45a4-835d-8ebb7f6048cc)
+[![View LearnFacebookAdsInsights Pro live Demo](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-pro-astro/secondary-button-LearnFacebookAdsInsights-pro-demo.svg)](https://LearnFacebookAdsInsights-pro.netlify.app/)
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ After downloading the template, you'll need to install some dependencies. Once t
 
 ### Folder structure
 
-Inside Foxi Astro project, you'll see the following folders and files:
+Inside LearnFacebookAdsInsights Astro project, you'll see the following folders and files:
 
 ```plaintext
 /
@@ -218,17 +218,17 @@ Check out **Toki**, a standout agency template with striking design, blazing spe
 [![Get Toki](https://oxygenna-themes.b-cdn.net/toki-astro/promo/primary-button-get-toki.svg)](https://astro.build/themes/details/toki/)
 [![View live Demo](https://oxygenna-themes.b-cdn.net/toki-astro/promo/secondary-button-toki-demo.svg)](https://toki-theme.netlify.app/)
 
-### Foxi Framer
+### LearnFacebookAdsInsights Framer
 
-Check out **Foxi Framer**, our premium Astro website template with fully responsive, customizable Tailwind CSS components.
+Check out **LearnFacebookAdsInsights Framer**, our premium Astro website template with fully responsive, customizable Tailwind CSS components.
 
-![foxi-framer](https://oxygenna-themes.b-cdn.net/foxi-astro/foxi.png)
+![LearnFacebookAdsInsights-framer](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/LearnFacebookAdsInsights.png)
 
-[![Get Foxi Framer](https://oxygenna-themes.b-cdn.net/foxi-astro/primary-button-get-foxi-framer.svg)](https://framer.com/remix/83IKsO4mvnbEpUyUXtwD)
-[![View live Demo](https://oxygenna-themes.b-cdn.net/foxi-astro/secondary-button-foxi-framer-demo.svg)](https://foxi.framer.website/)
+[![Get LearnFacebookAdsInsights Framer](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/primary-button-get-LearnFacebookAdsInsights-framer.svg)](https://framer.com/remix/83IKsO4mvnbEpUyUXtwD)
+[![View live Demo](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/secondary-button-LearnFacebookAdsInsights-framer-demo.svg)](https://LearnFacebookAdsInsights.framer.website/)
 
 ## Join the Community
 
 You can join our community on [Discord](https://discord.gg/YC5Eup8ZEx)!
 
-[![Hire Us](https://oxygenna-themes.b-cdn.net/foxi-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)
+[![Hire Us](https://oxygenna-themes.b-cdn.net/LearnFacebookAdsInsights-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)
