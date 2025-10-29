@@ -13,35 +13,36 @@ import Feature from '../../ui/Feature.astro'
 
 // Props
 type FeatureData = {
-	title: string
-	icon: string
-	description: string
+    title: string
+    icon?: string
+    description: string
+    category?: string
 }
 type Props = {
-	title: string
-	text?: string
-	data: FeatureData[]
-	classes?: string
+    title: string
+    text?: string
+    data: FeatureData[]
+    classes?: string
 }
 const { title, text, data, classes } = Astro.props
 ---
 
 <StickySidebar classes={classes}>
-	<header slot="sidebar">
-		{title && <h3 class="text-3xl">{title}</h3>}
-		{text && <p class="text-lg leading-relaxed">{text}</p>}
-	</header>
+    <header slot="sidebar">
+        {title && <h3 class="text-3xl">{title}</h3>}
+        {text && <p class="text-lg leading-relaxed">{text}</p>}
+    </header>
 
-	<Row>
-		{
-			// Map through the filtered features and render them
-			data.map((feature: FeatureData) => (
-				<Col span="4">
-					<Feature title={feature.title} icon={feature.icon} align="left" classes="mb-12">
-						{feature.description}
-					</Feature>
-				</Col>
-			))
-		}
-	</Row>
+    <Row>
+        {
+            // Map through the filtered features and render them
+            data.map((feature: FeatureData) => (
+                <Col span="4">
+                    <Feature title={feature.title} icon={feature.icon} align="left" classes="mb-12">
+                        {feature.description}
+                    </Feature>
+                </Col>
+            ))
+        }
+    </Row>
 </StickySidebar>
