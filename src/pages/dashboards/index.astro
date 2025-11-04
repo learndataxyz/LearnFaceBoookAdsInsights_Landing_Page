@@ -1,0 +1,35 @@
+---
+// Dashboards Index Page
+// ------------
+// Description: The dashboards index page.
+
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import DashboardPosts from '../../components/blocks/dashboards/DashboardPosts.astro'
+
+// Data
+import dashboardsData from '../../data/json-files/dashboardsData.json'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'LearnFacebookAdsInsights | Dashboard Templates',
+	description:
+		"Explore our collection of pre-built dashboard templates designed to help you monitor and analyze your Facebook Ads performance. Get instant insights with our ready-to-use Looker Studio dashboards."
+}
+// - Page Header
+const header = {
+	title: 'Explore <strong>Dashboard Templates</strong>',
+	text: 'Powerful pre-built dashboards to monitor your Facebook Ads performance, track ROI, and make data-driven decisions.'
+}
+
+const allDashboards = dashboardsData
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<DashboardPosts data={allDashboards} />
+</Layout>

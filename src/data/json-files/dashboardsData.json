@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Facebook Ads Performance Dashboard",
+        "link": "https://looker.example.com/dashboards/facebook-ads-performance",
+        "description": "Monitor your Facebook Ads campaigns in real-time with comprehensive performance metrics and ROI analysis.",
+        "image": "/cards/dashboard-performance.svg"
+    },
+    {
+        "name": "Campaign ROI Tracker",
+        "link": "https://looker.example.com/dashboards/campaign-roi-tracker",
+        "description": "Track return on investment across all your Facebook Ad campaigns with detailed analytics and insights.",
+        "image": "/cards/dashboard-roi.svg"
+    },
+    {
+        "name": "Audience Insights Dashboard",
+        "link": "https://looker.example.com/dashboards/audience-insights",
+        "description": "Deep dive into your audience demographics, interests, and behavior patterns with interactive visualizations.",
+        "image": "/cards/dashboard-audience.svg"
+    },
+    {
+        "name": "Ad Spend Analysis",
+        "link": "https://looker.example.com/dashboards/ad-spend-analysis",
+        "description": "Analyze your ad spending trends across different campaigns and channels to optimize your budget allocation.",
+        "image": "/cards/dashboard-spend.svg"
+    },
+    {
+        "name": "Conversion Funnel Dashboard",
+        "link": "https://looker.example.com/dashboards/conversion-funnel",
+        "description": "Visualize your complete conversion funnel from ad impression to final conversion with detailed step analytics.",
+        "image": "/cards/dashboard-funnel.svg"
+    },
+    {
+        "name": "Real-time Performance Monitor",
+        "link": "https://looker.example.com/dashboards/realtime-monitor",
+        "description": "Monitor your campaigns in real-time as they run, with instant alerts for anomalies and opportunities.",
+        "image": "/cards/dashboard-realtime.svg"
+    }
+]

@@ -1,0 +1,64 @@
+---
+// Dashboard Posts grid Section
+// ------------
+// Description: A grid of dashboard templates sorted in a 3 column layout.
+// Properties:
+// - data: An array of dashboards
+
+// Components
+// - Layout
+import Section from '../../../components/ui/Section.astro'
+import Row from '../../../components/ui/Row.astro'
+import Col from '../../../components/ui/Col.astro'
+// - UI
+import Dashboard from '../../../components/ui/cards/DashboardCard.astro'
+
+// Import all dashboard images
+import dashboardPerformance from '../../../assets/cards/dashboard-performance.svg'
+import dashboardROI from '../../../assets/cards/dashboard-roi.svg'
+import dashboardAudience from '../../../assets/cards/dashboard-audience.svg'
+import dashboardSpend from '../../../assets/cards/dashboard-spend.svg'
+import dashboardFunnel from '../../../assets/cards/dashboard-funnel.svg'
+import dashboardRealtime from '../../../assets/cards/dashboard-realtime.svg'
+
+// Props
+type Props = {
+	data: any[]
+}
+const { data: allDashboards } = Astro.props
+
+// Map image paths to actual imports
+const imageMap: Record<string, any> = {
+	'/cards/dashboard-performance.svg': dashboardPerformance,
+	'/cards/dashboard-roi.svg': dashboardROI,
+	'/cards/dashboard-audience.svg': dashboardAudience,
+	'/cards/dashboard-spend.svg': dashboardSpend,
+	'/cards/dashboard-funnel.svg': dashboardFunnel,
+	'/cards/dashboard-realtime.svg': dashboardRealtime
+}
+
+// Enrich dashboards with actual image imports
+const dashboardsWithImages = allDashboards.map((dashboard: any) => ({
+	...dashboard,
+	imageImport: imageMap[dashboard.image] || null
+}))
+---
+
+<Section>
+	<Row>
+		{
+			dashboardsWithImages.map((dashboard: any) => (
+				<Col span="4">
+					<Dashboard
+						link={dashboard.link}
+						title={dashboard.name}
+						image={dashboard.imageImport}
+					>
+						{dashboard.description}
+					</Dashboard>
+				</Col>
+			))
+		}
+	</Row>
+</Section>
+
