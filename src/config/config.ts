@@ -23,7 +23,7 @@ export interface Config {
 export const configData: Config = {
 	siteTitle: 'LearnFacebookAdsInsights - AI-Powered Facebook Ads Analytics',
 	siteDescription:
-		'Connect your Facebook Ads data to Google Sheets. Get AI-powered insights and automation for Shopify stores, digital agencies, and freelancers.',
+		'Connect your Facebook Ads data to Google Sheets™. Get AI-powered insights and automation for Shopify stores, digital agencies, and freelancers.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',

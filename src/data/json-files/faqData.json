@@ -37,19 +37,19 @@
     },
     {
         "question": "Can I use LearnFacebookAdsInsights with other BI tools?",
-        "reply": "Yes, with LearnFacebookAdsInsights, you can pull your Facebook Ads data into Google Sheets and use the Google Sheets integration to connect with various BI tools like Looker Studio and Power BI. This allows you to create custom reports and visualizations based on your Facebook Ads data.",
+        "reply": "Yes, with LearnFacebookAdsInsights, you can pull your Facebook Ads data into Google Sheets™ and use the Google Sheets™ integration to connect with various BI tools like Looker Studio and Power BI. This allows you to create custom reports and visualizations based on your Facebook Ads data.",
         "category": "integrations",
         "open": true
     },
     {
-        "question": "How do I connect LearnFacebookAdsInsights to Google Sheets?",
-        "reply": "You can easily connect LearnFacebookAdsInsights to Google Sheets through our integration settings. Once connected, your Facebook Ads data will automatically sync to your specified Google Sheet, allowing you to analyze and visualize your ad performance data.",
+        "question": "How do I connect LearnFacebookAdsInsights to Google Sheets™?",
+        "reply": "You can easily connect LearnFacebookAdsInsights to Google Sheets™ through our integration settings. Once connected, your Facebook Ads data will automatically sync to your specified Google Sheet, allowing you to analyze and visualize your ad performance data.",
         "category": "integrations",
         "open": false
     },
     {
         "question": "Does LearnFacebookAdsInsights work with Looker Studio (formerly Data Studio)?",
-        "reply": "Yes, LearnFacebookAdsInsights integrates seamlessly with Looker Studio. By pulling your Facebook Ads data into Google Sheets first, you can then connect those sheets to Looker Studio to create interactive dashboards and custom reports for your ad campaigns.",
+        "reply": "Yes, LearnFacebookAdsInsights integrates seamlessly with Looker Studio. By pulling your Facebook Ads data into Google Sheets™ first, you can then connect those sheets to Looker Studio to create interactive dashboards and custom reports for your ad campaigns.",
         "category": "integrations",
         "open": false
     },
@@ -61,7 +61,7 @@
     },
     {
         "question": "Does LearnFacebookAdsInsights support Power BI integration?",
-        "reply": "Yes, you can connect LearnFacebookAdsInsights with Power BI through our Google Sheets integration or by using our API. This allows you to incorporate your Facebook Ads metrics into your Power BI dashboards and reports.",
+        "reply": "Yes, you can connect LearnFacebookAdsInsights with Power BI through our Google Sheets™ integration or by using our API. This allows you to incorporate your Facebook Ads metrics into your Power BI dashboards and reports.",
         "category": "integrations",
         "open": false
     },

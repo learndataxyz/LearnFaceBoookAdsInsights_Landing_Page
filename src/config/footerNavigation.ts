@@ -37,7 +37,7 @@ export const footerNavigationData: FooterData = {
 	footerAbout: {
 		title: 'LearnFacebookAdsInsights.',
 		aboutText:
-			'LearnFacebookAds Insights transforms how marketers track performance. This Google Sheets extension automatically pulls your Facebook Ads data and uses AI to analyze what’s driving results. Save hours of manual reporting, understand your true ROAS instantly, and make smarter, faster decisions that help you scale campaigns with confidence.',
+			'LearnFacebookAds Insights transforms how marketers track performance. This Google Sheets™ extension automatically pulls your Facebook Ads data and uses AI to analyze what’s driving results. Save hours of manual reporting, understand your true ROAS instantly, and make smarter, faster decisions that help you scale campaigns with confidence.',
 		logo: {
 			src: '/logo.svg',
 			alt: 'The tailwind astro theme',
