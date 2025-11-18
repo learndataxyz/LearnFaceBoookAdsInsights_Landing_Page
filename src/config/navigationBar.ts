@@ -54,5 +54,5 @@ export const navigationBarData: NavData = {
 		},
 		{ name: 'Contact', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'Try it now', link: 'https://workspace.google.com/marketplace/app/learnfacebookadsinsights/147115305937', style: 'primary', size: 'lg' }]
 }
