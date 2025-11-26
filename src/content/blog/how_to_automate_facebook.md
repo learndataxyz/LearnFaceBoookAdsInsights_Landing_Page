@@ -33,7 +33,7 @@ You can also ask the AI data analyst for information from your Facebook Ads data
 
 ## **Step-by-Step: Automate Your Reporting in Under 60 Seconds**
 
-### Step 1: Install the Google Sheets Extension
+### Step 1: Install the LearnFacebookAdsInsights Google Sheets Extension
 
 Open your Google Sheets, create an empty file, and name it *My Ads Insights.*
 
@@ -118,7 +118,7 @@ You will also see the list of all active schedules with a highlight on the curre
 
 With this, you can set up multiple schedules on multiple sheets without having to go to the *Ads Manager.* 
 
-## Bonus: Add AI Analysis to Your Data
+## Add AI Analysis to Your Data
 
 With the AI Chat assistant, you don’t need to have a dashboard. You can ask it for various questions regarding your data and even ask it to perform basic to advanced data analysis tasks like correlation and regression, statistical tests, and also plot generation.
 
